@@ -36,6 +36,20 @@ end
 # puts "RETURNS VALUE"
 # puts "\n\n*****************************"
 
+# result = [1,2,3,4,5].select {|number| number.odd?}
+# print result # [1,3,5]
+
+# puts "\n\n"
+
+result = [1, 2, 3, 4, 5].select do |number|
+    number.odd?
+end
+
+print result # [1,3,5]
+puts "\n\n"
+
+
+
 
 
 
